@@ -1,0 +1,2 @@
+C:\Users\George\source\repos\HostsMod\Debug\HostsMod.exe
+C:\Users\George\source\repos\HostsMod\Debug\HostsMod.pdb
