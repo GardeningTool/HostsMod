@@ -33,3 +33,7 @@
 
 #VS
 .vs/
+Debug/
+*.proj
+*.filters
+*.user
