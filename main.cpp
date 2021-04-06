@@ -9,7 +9,6 @@ const vector<string> blocked_sites = {
     "vladvilcu2006.tech",
     "verble.software",
     "jonathanhardwick.me",
-    "vladvilcu2006.tech",
     "etc.catering" };
 
 int main() {

@@ -37,3 +37,5 @@ Debug/
 *.proj
 *.filters
 *.user
+*.sln
+*.vcxproj
