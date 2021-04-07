@@ -9,23 +9,28 @@ const vector<string> blocked_sites = {
     "vladvilcu2006.tech",
     "verble.software",
     "jonathanhardwick.me",
-    "etc.catering" };
+    "etc.catering"
+};
 
 int main() {
 
     ofstream hosts_file;
-    hosts_file.open("C:\\Windows\\System32\\drivers\\etc\\hosts", ios::app);
+    hosts_file.open(R"(C:\Windows\System32\drivers\etc\hosts)", ios::app);
 
     if (!hosts_file) {
         cout << "Unable to access hosts file! Try running as Administrator." << endl;
+        getchar();
         return -1; //no access
     }
 
-    for (auto site : blocked_sites) {
+    for (const auto& site : blocked_sites) {
         hosts_file << "127.0.0.1     " << site << "\n";
         cout << "Blacklisted " << site << endl;
     }
 
     hosts_file.close();
 
+    cout << "Finished! Press any key to close." << endl;
+
+    getchar();
 }
