@@ -28,7 +28,7 @@ int main() {
         return -1; //no access
     }
 
-    vector<string> current = {};
+    vector<string> current;
     read(&current);
     write(current, hosts_file);
     hosts_file.close();
