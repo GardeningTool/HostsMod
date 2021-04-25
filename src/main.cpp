@@ -11,7 +11,7 @@ const vector<string> blocked_sites = {
     "verble.software",
     "jonathanhardwick.me",
     "etc.catering",
-    "batonrogue.tech"
+    "batonrogue.tech",
 };
 
 void read(vector<string> *lines);
