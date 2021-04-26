@@ -90,7 +90,7 @@ void read(vector<string> *lines) {
 void write(vector<string> vec, ofstream &hosts_file) {
     for (const auto &site : blocked_sites) {
         if (find(vec.begin(), vec.end(), "127.0.0.1     " + site) == vec.end()) {
-            hosts_file << "127.0.0.1     " << site << "";
+            hosts_file << "127.0.0.1     " << site << "\n";
             cout << "Blacklisted " << site << endl;
         }
     }
