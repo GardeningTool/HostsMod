@@ -39,3 +39,6 @@ Debug/
 *.user
 *.sln
 *.vcxproj
+
+cmake-build-debug/
+.idea/
