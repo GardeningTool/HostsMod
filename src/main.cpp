@@ -50,7 +50,8 @@ const vector<string> blocked_sites = {
         "mypic.icu",
         "catsnthings.fun",
         "curiouscat.club",
-        "gyazo.nl"
+        "gyazo.nl",
+        "gaymers.ax"
 };
 
 void read(vector<string> *lines);
