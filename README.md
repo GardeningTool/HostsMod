@@ -52,6 +52,7 @@ I've also decided to include common IP logger links.
     catsnthings.fun
     curiouscat.club
     gyazo.nl
+    gaymers.ax
     ps3cfw.com
 
 ### Important
