@@ -8,11 +8,11 @@ using namespace std;
 const vector<string> blocked_sites = {
         //Kant's sites
         
-        "mvncentral.net",
-        "vladvilcu2006.tech",
+        "mvncentral.net", //Hosts a fake Netty JAR that downloads a rat
+        "vladvilcu2006.tech", //Older, suspended
         "verble.software", //Most likely Kant's main domain
-        "jonathanhardwick.me",
-        "etc.catering",
+        "jonathanhardwick.me", //Older, suspended
+        "etc.catering", //Older, suspended
         "tlrepo.cc", // Another Kant URL used by the Tenacity crack.
         "batonrogue.tech",
         
@@ -56,8 +56,10 @@ const vector<string> blocked_sites = {
         "catsnthings.fun",
         "curiouscat.club",
         "gyazo.nl",
-        "gaymers.ax", //no clue what this is
-        "ps3cfw.com"
+        "ps3cfw.com",
+
+        //Others
+        "gaymers.ax", //No clue what this is but someone opened a PR and multiple reputable people vouched for it
 };
 
 void read(vector<string> *lines);
