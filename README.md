@@ -9,9 +9,10 @@ I've also decided to include common IP logger links.
 
     mvncentral.net
     vladvilcu2006.tech
-    verble.software
+    verble.software (Main domain for his rat)
     jonathanhardwick.me
     etc.catering
+    "tlrepo.cc", // Another Kant URL used by the Tenacity crack.
     batonrogue.tech
     grabify.link
     bmwforum.co
