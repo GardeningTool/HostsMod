@@ -6,13 +6,17 @@
 using namespace std;
 
 const vector<string> blocked_sites = {
+        //Kant's sites
+        
         "mvncentral.net",
         "vladvilcu2006.tech",
-        "verble.software",
+        "verble.software", //Most likely Kant's main domain
         "jonathanhardwick.me",
         "etc.catering",
-        "tlrepo.cc", // Another Kant URL used by Tenacity.
+        "tlrepo.cc", // Another Kant URL used by the Tenacity crack.
         "batonrogue.tech",
+        
+        //IP Loggers
         "grabify.link",
         "bmwforum.co",
         "leancoding.co",
@@ -52,7 +56,7 @@ const vector<string> blocked_sites = {
         "catsnthings.fun",
         "curiouscat.club",
         "gyazo.nl",
-        "gaymers.ax",
+        "gaymers.ax", //no clue what this is
         "ps3cfw.com"
 };
 
