@@ -62,6 +62,8 @@ One of the domains, "mvncentral.net" is disguised as Maven Central, which is not
 
 Many of the domains may appear to be suspended. This is due to the fact that Kant, the purchaser of the domains and person who spread the malware this program attempts to block, purchased these domains fraudulently. Though they are suspended, I have decided to include them anyways.
 
+All releases are Windows specific. If you'd like one for Linux, I'd suggest https://github.com/HackingMC/HostsMod (though there's no known rats from Kant for Linux)
+
 ### Usage
 
 Run as administrator
