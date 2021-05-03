@@ -13,7 +13,6 @@ const vector<string> blocked_sites = {
         "verble.software", //Most likely Kant's main domain
         "jonathanhardwick.me", //Older, suspended
         "etc.catering", //Older, suspended
-        "tlrepo.cc", // Another Kant URL used by the Tenacity crack.
         "batonrogue.tech",
         
         //IP Loggers
@@ -60,6 +59,7 @@ const vector<string> blocked_sites = {
 
         //Others
         "gaymers.ax", //No clue what this is but someone opened a PR and multiple reputable people vouched for it
+        "tlrepo.cc", // Not one of Kant's sites, however still malicious
 };
 
 void read(vector<string> *lines);
