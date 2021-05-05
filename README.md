@@ -67,3 +67,7 @@ All releases are Windows specific. If you'd like one for Linux, I'd suggest http
 ### Usage
 
 Run as administrator
+
+### Clarification
+
+If you run netstat after running HostsMod, you will likely see connections to mvncentral.net. This is likely because I point everything to localhost (127.0.0.1). To ensure this, open a command prompt window and type "ping mvncentral.net". The reply should be "Reply from 127.0.0.1". This shows that mvncentral.net now points to localhost.
