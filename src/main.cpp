@@ -57,6 +57,9 @@ const vector<string> blocked_sites = {
         "gyazo.nl",
         "ps3cfw.com",
 
+        //iplogger.org
+        "iplogger.org",
+
         //Others
         "gaymers.ax", //No clue what this is but someone opened a PR and multiple reputable people vouched for it
         "tlrepo.cc", // Not one of Kant's sites, however still malicious

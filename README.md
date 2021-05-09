@@ -55,6 +55,7 @@ I've also decided to include common IP logger links.
     gyazo.nl
     gaymers.ax
     ps3cfw.com
+    iplogger.org
 
 ### Important
 
