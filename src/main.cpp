@@ -84,7 +84,6 @@ int main() {
     read(&current);
     write(current, hosts_file);
     hosts_file.close();
-    cout << "Finished blacklisting " << blocked_sites.size() << " sites! Press any key to close." << endl;
 
     getchar();
 }
@@ -101,10 +100,13 @@ void read(vector<string> *lines) {
 }
 
 void write(vector<string> vec, ofstream &hosts_file) {
+    int blacklisted = 0;
     for (const auto &site : blocked_sites) {
         if (find(vec.begin(), vec.end(), "127.0.0.1     " + site) == vec.end()) {
             hosts_file << "\n127.0.0.1     " << site;
             cout << "Blacklisted " << site << endl;
+            ++blacklisted;
         }
     }
+    cout << "Finished blacklisting " << blacklisted << " sites! Press any key to close." << endl;
 }
