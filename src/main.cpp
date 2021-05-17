@@ -13,6 +13,7 @@ const vector<string> blocked_sites = {
         "verble.software", //Most likely Kant's main domain
         "jonathanhardwick.me", //Older, suspended
         "etc.catering", //Older, suspended
+        "khonsarifamily.tech",
         "batonrogue.tech",
         
         //IP Loggers
