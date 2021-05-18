@@ -8,6 +8,7 @@ I've also decided to include common IP logger links.
 ### Domains
 
     mvncentral.net
+    neverbot.cc
     vladvilcu2006.tech
     verble.software (Main domain for his rat)
     jonathanhardwick.me
