@@ -8,6 +8,7 @@ using namespace std;
 const vector<string> blocked_sites = {
         //Kant's sites
         
+        "neverbot.cc",
         "mvncentral.net", //Hosts a fake Netty JAR that downloads a rat
         "vladvilcu2006.tech", //Older, suspended
         "verble.software", //Most likely Kant's main domain
