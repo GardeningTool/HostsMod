@@ -15,6 +15,7 @@ I've also decided to include common IP logger links.
     tlrepo.cc (Not owned by Kant, however does contain a rat)
     khonsarifamily.tech
     batonrogue.tech
+    verbleisover.party
     grabify.link
     bmwforum.co
     leancoding.co

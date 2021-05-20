@@ -3,9 +3,7 @@
 #include <vector>
 #include <algorithm>
 
-using namespace std;
-
-const vector<string> blocked_sites = {
+const std::vector<std::string> blocked_sites = {
         //Kant's sites
         
         "mvncentral.net", //Hosts a fake Netty JAR that downloads a rat
@@ -14,6 +12,7 @@ const vector<string> blocked_sites = {
         "jonathanhardwick.me", //Older, suspended
         "etc.catering", //Older, suspended
         "khonsarifamily.tech",
+        "verbleisover.party",
         "batonrogue.tech",
         
         //IP Loggers
@@ -66,21 +65,21 @@ const vector<string> blocked_sites = {
         "tlrepo.cc", // Not one of Kant's sites, however still malicious
 };
 
-void read(vector<string> *lines);
-void write(vector<string> vec, ofstream &hosts_file);
+void read(std::vector<std::string> *lines);
+void write(std::vector<std::string> vec, std::ofstream &hosts_file);
 
 int main() {
 
-    ofstream hosts_file;
-    hosts_file.open(R"(C:\Windows\System32\drivers\etc\hosts)", ios::app);
+    std::ofstream hosts_file;
+    hosts_file.open(R"(C:\Windows\System32\drivers\etc\hosts)", std::ios::app);
 
     if (!hosts_file) {
-        cout << "Unable to access hosts file! Try running as Administrator." << endl;
+        std::cout << "Unable to access hosts file! Try running as Administrator." << std::endl;
         getchar();
         return -1; //no access
     }
 
-    vector<string> current;
+    std::vector<std::string> current;
     read(&current);
     write(current, hosts_file);
     hosts_file.close();
@@ -88,25 +87,25 @@ int main() {
     getchar();
 }
 
-void read(vector<string> *lines) {
-    string line;
-    ifstream in (R"(C:\Windows\System32\drivers\etc\hosts)");
+void read(std::vector<std::string> *lines) {
+    std::string line;
+    std::ifstream in (R"(C:\Windows\System32\drivers\etc\hosts)");
     while (getline(in,line) ) {
-        if (line.find("127.0.0.1") != string::npos) {
+        if (line.find("127.0.0.1") != std::string::npos) {
             lines->push_back(line);
         }
     }
     in.close();
 }
 
-void write(vector<string> vec, ofstream &hosts_file) {
+void write(std::vector<std::string> vec, std::ofstream &hosts_file) {
     int blacklisted = 0;
     for (const auto &site : blocked_sites) {
         if (find(vec.begin(), vec.end(), "127.0.0.1     " + site) == vec.end()) {
             hosts_file << "\n127.0.0.1     " << site;
-            cout << "Blacklisted " << site << endl;
+            std::cout << "Blacklisted " << site << std::endl;
             ++blacklisted;
         }
     }
-    cout << "Finished blacklisting " << blacklisted << " sites! Press any key to close." << endl;
+    std::cout << "Finished blacklisting " << blacklisted << " sites! Press any key to close." << std::endl;
 }
