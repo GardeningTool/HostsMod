@@ -61,6 +61,7 @@ I've also decided to include common IP logger links.
     gaymers.ax
     ps3cfw.com
     iplogger.org
+    steancomunnity.ru
 
 ### Important
 
