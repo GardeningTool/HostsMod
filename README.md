@@ -62,6 +62,7 @@ I've also decided to include common IP logger links.
     ps3cfw.com
     iplogger.org
     steancomunnity.ru
+    streamcommunnlty.ru
 
 ### Important
 
