@@ -63,6 +63,7 @@ I've also decided to include common IP logger links.
     iplogger.org
     steancomunnity.ru
     streamcommunnlty.ru
+    streancommunuty.ru
 
 ### Important
 
