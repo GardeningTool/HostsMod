@@ -66,8 +66,6 @@ const std::vector<std::string> blocked_sites = {
         "steancomunnity.ru", //People keep posting all over discord, when asked they said they didnt send that link so probably a token logger
         "streamcommunnlty.ru", //like the one above, they just bought a new domain
         "streancommunuty.ru", //another one
-        "streamconmunitlu.me", //they finially got a non .ru domain
-        "stearncomminuty.ru", //not gonna label these anymore since you probably get the point
 };
 
 
