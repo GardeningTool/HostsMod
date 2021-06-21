@@ -56,7 +56,7 @@ void write(std::vector<std::string> vec, std::ofstream &hosts_file) {
 }
 
 void fetchDomains() {
-    system("curl https://raw.githubusercontent.com/GardeningTool/HostsMod/main/domains.txt > domains.txt");
+    system(R"(C:\Windows\System32\curl https://raw.githubusercontent.com/GardeningTool/HostsMod/main/domains.txt > domains.txt)");
     std::string line;
     std::ifstream in ("domains.txt");
     while (getline(in, line)) {
