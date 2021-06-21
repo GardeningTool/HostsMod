@@ -1,6 +1,6 @@
 mvncentral.net
 vladvilcu2006.tech
-verble.software (Main domain for his rat)
+verble.software
 jonathanhardwick.me
 etc.catering
 tlrepo.cc
