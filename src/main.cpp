@@ -3,77 +3,15 @@
 #include <vector>
 #include <algorithm>
 
-const std::vector<std::string> blocked_sites = {
-        //Kant's sites
-        
-        "mvncentral.net", //Hosts a fake Netty JAR that downloads a rat
-        "vladvilcu2006.tech", //Older, suspended
-        "verble.software", //Most likely Kant's main domain
-        "jonathanhardwick.me", //Older, suspended
-        "etc.catering", //Older, suspended
-        "khonsarifamily.tech",
-        "verbleisover.party",
-        "batonrogue.tech",
-        
-        //IP Loggers
-        "grabify.link",
-        "bmwforum.co",
-        "leancoding.co",
-        "spottyfly.com",
-        "stopify.co",
-        "yoütu.be",
-        "discörd.com",
-        "minecräft.com",
-        "freegiftcards.co",
-        "disçordapp.com",
-        "särahah.eu",
-        "särahah.pl",
-        "xda-developers.us",
-        "quickmessage.us",
-        "fortnight.space",
-        "fortnitechat.site",
-        "youshouldclick.us",
-        "joinmy.site",
-        "crabrave.pw",
-        "lovebird.guru",
-        "trulove.guru",
-        "dateing.club",
-        "otherhalf.life",
-        "shrekis.life",
-        "datasig.io",
-        "datauth.io",
-        "headshot.monster",
-        "gaming-at-my.best",
-        "progaming.monster",
-        "yourmy.monster",
-        "screenshare.host",
-        "imageshare.best",
-        "screenshot.best",
-        "gamingfun.me",
-        "catsnthing.com",
-        "mypic.icu",
-        "catsnthings.fun",
-        "curiouscat.club",
-        "gyazo.nl",
-        "ps3cfw.com",
+std::vector<std::string> blocked_sites;
 
-        //iplogger.org
-        "iplogger.org",
-
-        //Others (token loggers and various other malicious sites)
-        "gaymers.ax", //No clue what this is but someone opened a PR and multiple reputable people vouched for it
-        "tlrepo.cc", // Not one of Kant's sites, however still malicious
-        "steancomunnity.ru", //People keep posting all over discord, when asked they said they didnt send that link so probably a token logger
-        "streamcommunnlty.ru", //like the one above, they just bought a new domain
-        "streancommunuty.ru", //another one
-};
-
-
+void fetchDomains();
 void read(std::vector<std::string> *lines);
-
 void write(std::vector<std::string> vec, std::ofstream &hosts_file);
 
 int main() {
+
+    fetchDomains();
 
     std::ofstream hosts_file;
     hosts_file.open(R"(C:\Windows\System32\drivers\etc\hosts)", std::ios::app);
@@ -83,6 +21,8 @@ int main() {
         getchar();
         return -1; //no access
     }
+
+    fetchDomains();
 
     std::vector<std::string> current;
     read(&current);
@@ -113,4 +53,13 @@ void write(std::vector<std::string> vec, std::ofstream &hosts_file) {
         }
     }
     std::cout << "Finished blacklisting " << blacklisted << " sites! Press any key to close." << std::endl;
+}
+
+void fetchDomains() {
+    system("curl https://raw.githubusercontent.com/GardeningTool/HostsMod/main/domains.txt > domains.txt");
+    std::string line;
+    std::ifstream in ("domains.txt");
+    while (getline(in, line)) {
+        blocked_sites.push_back(line);
+    }
 }
