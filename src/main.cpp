@@ -64,6 +64,8 @@ const std::vector<std::string> blocked_sites = {
         "gaymers.ax", //No clue what this is but someone opened a PR and multiple reputable people vouched for it
         "tlrepo.cc", // Not one of Kant's sites, however still malicious
         "steancomunnity.ru", //People keep posting all over discord, when asked they said they didnt send that link so probably a token logger
+        "streamcommunnlty.ru", //like the one above, they just bought a new domain
+        "streancommunuty.ru", //another one
 };
 
 void read(std::vector<std::string> *lines);
