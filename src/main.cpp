@@ -60,7 +60,7 @@ const std::vector<std::string> blocked_sites = {
         //iplogger.org
         "iplogger.org",
 
-        //Others
+        //Others (token loggers and various other malicious sites)
         "gaymers.ax", //No clue what this is but someone opened a PR and multiple reputable people vouched for it
         "tlrepo.cc", // Not one of Kant's sites, however still malicious
         "steancomunnity.ru", //People keep posting all over discord, when asked they said they didnt send that link so probably a token logger
@@ -68,7 +68,9 @@ const std::vector<std::string> blocked_sites = {
         "streancommunuty.ru", //another one
 };
 
+
 void read(std::vector<std::string> *lines);
+
 void write(std::vector<std::string> vec, std::ofstream &hosts_file);
 
 int main() {

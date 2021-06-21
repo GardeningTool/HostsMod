@@ -1,12 +1,16 @@
 # HostsMod
 
-### VirusTotal: https://www.virustotal.com/gui/file/58a61f545e21e60ff24f227571ef50b7ed1cd94b0d654bdd3f8267565f67a795/detection
+### VirusTotal: 
+
+https://www.virustotal.com/gui/file/58a61f545e21e60ff24f227571ef50b7ed1cd94b0d654bdd3f8267565f67a795/detection
+
+If you don't trust it, either compile it yourself or manually append each entry to your hosts file.
 
 ### Description
 
 In the Minecraft cheating community, it's not uncommon for clients or client cracks/leaks to be malware. The most famous example of this would be the Autumn client "crack", released by Kant. This application attempts to blacklist known hosts of Kant's malware, in order to prevent someone from accidentally getting themselves ratted.
 
-I've also decided to include common IP logger links.
+HostsMod also blocks grabify links as well as a few token loggers.
 
 ### Domains
 
