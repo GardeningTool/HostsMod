@@ -69,6 +69,7 @@ HostsMod also blocks grabify links as well as a few token loggers.
     streamcommunnlty.ru
     streancommunuty.ru
     streamconmunitlu.me
+    stearncomminuty.ru
 
 ### Important
 
