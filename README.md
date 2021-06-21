@@ -14,60 +14,7 @@ HostsMod also blocks grabify links as well as a few token loggers.
 
 ### Domains
 
-    mvncentral.net
-    vladvilcu2006.tech
-    verble.software (Main domain for his rat)
-    jonathanhardwick.me
-    etc.catering
-    tlrepo.cc (Not owned by Kant, however does contain a rat)
-    khonsarifamily.tech
-    batonrogue.tech
-    verbleisover.party
-    grabify.link
-    bmwforum.co
-    leancoding.co
-    spottyfly.com
-    stopify.co
-    yoütu.be
-    discörd.com
-    minecräft.com
-    freegiftcards.co
-    disçordapp.com
-    särahah.eu
-    särahah.pl
-    xda-developers.us
-    quickmessage.us
-    fortnight.space
-    fortnitechat.site
-    youshouldclick.us
-    joinmy.site
-    crabrave.pw
-    lovebird.guru
-    trulove.guru
-    dateing.club
-    otherhalf.life
-    shrekis.life
-    datasig.io
-    datauth.io
-    headshot.monster
-    gaming-at-my.best
-    progaming.monster
-    yourmy.monster
-    screenshare.host
-    imageshare.best
-    screenshot.best
-    gamingfun.me
-    catsnthing.com
-    mypic.icu
-    catsnthings.fun
-    curiouscat.club
-    gyazo.nl
-    gaymers.ax
-    ps3cfw.com
-    iplogger.org
-    steancomunnity.ru
-    streamcommunnlty.ru
-    streancommunuty.ru
+For a list of blocked domains, check out https://raw.githubusercontent.com/GardeningTool/HostsMod/main/domains.txt.
 
 ### Important
 
