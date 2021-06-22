@@ -21,9 +21,7 @@ int main() {
         getchar();
         return -1; //no access
     }
-
-    fetchDomains();
-
+    
     std::vector<std::string> current;
     read(&current);
     write(current, hosts_file);
@@ -35,7 +33,7 @@ int main() {
 void read(std::vector<std::string> *lines) {
     std::string line;
     std::ifstream in (R"(C:\Windows\System32\drivers\etc\hosts)");
-    while (getline(in,line) ) {
+    while (getline(in,line)) {
         if (line.find("127.0.0.1") != std::string::npos) {
             lines->push_back(line);
         }
