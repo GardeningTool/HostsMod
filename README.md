@@ -2,7 +2,7 @@
 
 ### VirusTotal: 
 
-https://www.virustotal.com/gui/file/58a61f545e21e60ff24f227571ef50b7ed1cd94b0d654bdd3f8267565f67a795/detection
+https://www.virustotal.com/gui/file/ab414d0ae73f20561c4f7cd81b143979a35176f859f52c5207872ee0ccb1659b/detection
 
 If you don't trust it, either compile it yourself or manually append each entry to your hosts file.
 
@@ -30,4 +30,4 @@ Run as administrator
 
 ### Clarification
 
-If you run netstat after running HostsMod, you will likely see connections to mvncentral.net. This is likely because I point everything to localhost (127.0.0.1). To ensure this, open a command prompt window and type "ping mvncentral.net". The reply should be "Reply from 127.0.0.1". This shows that mvncentral.net now points to localhost.
+If you run netstat after running HostsMod, you will likely see connections to mvncentral.net. This is caused by HostsMod pointing everything to localhost (127.0.0.1). To prove this, open a command prompt window and type "ping mvncentral.net". The reply should be "Reply from 127.0.0.1". This shows that mvncentral.net now points to localhost.

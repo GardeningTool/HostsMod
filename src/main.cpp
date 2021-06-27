@@ -21,9 +21,7 @@ int main() {
         getchar();
         return -1; //no access
     }
-
-    fetchDomains();
-
+    
     std::vector<std::string> current;
     read(&current);
     write(current, hosts_file);
@@ -35,7 +33,7 @@ int main() {
 void read(std::vector<std::string> *lines) {
     std::string line;
     std::ifstream in (R"(C:\Windows\System32\drivers\etc\hosts)");
-    while (getline(in,line) ) {
+    while (getline(in,line)) {
         if (line.find("127.0.0.1") != std::string::npos) {
             lines->push_back(line);
         }
@@ -56,7 +54,7 @@ void write(std::vector<std::string> vec, std::ofstream &hosts_file) {
 }
 
 void fetchDomains() {
-    system("curl https://raw.githubusercontent.com/GardeningTool/HostsMod/main/domains.txt > domains.txt");
+    system(R"(C:\Windows\System32\curl https://raw.githubusercontent.com/GardeningTool/HostsMod/main/domains.txt > domains.txt)");
     std::string line;
     std::ifstream in ("domains.txt");
     while (getline(in, line)) {
