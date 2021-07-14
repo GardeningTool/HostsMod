@@ -33,3 +33,13 @@ Run as administrator
 ### Clarification
 
 If you run netstat after running HostsMod, you will likely see connections to mvncentral.net. This is caused by HostsMod pointing everything to localhost (127.0.0.1). To prove this, open a command prompt window and type "ping mvncentral.net". The reply should be "Reply from 127.0.0.1". This shows that mvncentral.net now points to localhost.
+
+### Known ratted cracks & proofs
+
+Autumn (Pretty obvious. Proof: https://youtu.be/PBVWzWEc0jI?t=89)
+
+Remix 1.6.3 (As far as i'm aware, it works but **WILL** rat you even if it doesn't create files)
+
+Remix 1.7.1 (Bad Girls is made by Kant, proof that its ratted: https://www.hizliresim.com/9685nfg, people in the comments talked about finding "verble.jar" in their temp folder)
+
+Astolfo (Blatantly removed "Astolfo" title and replaced with "Astolfo Cracked by Verble", you can see the font difference.)
