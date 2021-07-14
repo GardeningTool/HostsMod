@@ -18,7 +18,9 @@ For a list of blocked domains, check out https://raw.githubusercontent.com/Garde
 
 ### Important
 
-One of the domains, "mvncentral.net" is disguised as Maven Central, which is not a malicious site, however "mvncentral.net" is.
+One of the websites, "mvncentral.net" is made to look like maven central (https://repo1.maven.org/maven2/). 
+Maven central **is** safe, but nvmcentral.net **is not**.
+
 
 Many of the domains may appear to be suspended. This is due to the fact that Kant, the purchaser of the domains and person who spread the malware this program attempts to block, purchased these domains fraudulently. Though they are suspended, I have decided to include them anyways.
 
