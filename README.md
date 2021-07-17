@@ -36,10 +36,9 @@ If you run netstat after running HostsMod, you will likely see connections to mv
 
 ### Known ratted cracks & proofs
 
-Autumn (Pretty obvious. Proof: https://youtu.be/PBVWzWEc0jI?t=89)
-
-Remix 1.6.3 (As far as i'm aware, it works but **WILL** rat you even if it doesn't create files)
-
-Remix 1.7.1 (Bad Girls is made by Kant, proof that its ratted: https://www.hizliresim.com/9685nfg, people in the comments talked about finding "verble.jar" in their temp folder)
-
-Astolfo (Blatantly removed "Astolfo" title and replaced with "Astolfo Cracked by Verble", you can see the font difference.)
+Autumn "leak" - Pretty obvious. Proof: https://youtu.be/PBVWzWEc0jI?t=89
+Remix 1.6.3 crack
+Remix 1.7.1 crack
+Astolfo crack
+ZeroDay b20.4 crack
+Tenacity crack
