@@ -1,11 +1,8 @@
 # HostsMod
 
-### VirusTotal: 
-
-https://www.virustotal.com/gui/file/ab414d0ae73f20561c4f7cd81b143979a35176f859f52c5207872ee0ccb1659b/detection
-
-If you don't trust it, either compile it yourself or manually append each entry to your hosts file.
-
+### [VirusTotal](https://www.virustotal.com/gui/file/ab414d0ae73f20561c4f7cd81b143979a35176f859f52c5207872ee0ccb1659b/detection)  
+If you don't trust it, either compile it yourself or manually append each entry to your hosts file.  
+  
 ### Description
 
 In the Minecraft cheating community, it's not uncommon for clients or client cracks/leaks to be malware. The most famous example of this would be the Autumn client "crack", released by Kant. This application attempts to blacklist known hosts of Kant's malware, in order to prevent someone from accidentally getting themselves ratted.
@@ -36,9 +33,9 @@ If you run netstat after running HostsMod, you will likely see connections to mv
 
 ### Known ratted cracks & proofs
 
-Autumn "leak" - Pretty obvious. Proof: https://youtu.be/PBVWzWEc0jI?t=89
-Remix 1.6.3 crack
-Remix 1.7.1 crack
-Astolfo crack
-ZeroDay b20.4 crack
-Tenacity crack
+- Autumn "leak" | [Proof](https://youtu.be/PBVWzWEc0jI?t=89) 
+- Remix 1.6.3 crack
+- Remix 1.7.1 crack
+- Astolfo crack
+- ZeroDay b20.4 crack
+- Tenacity crack
