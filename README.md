@@ -39,3 +39,4 @@ If you run netstat after running HostsMod, you will likely see connections to mv
 - Astolfo crack
 - ZeroDay b20.4 crack
 - Tenacity crack
+- Sigma 5 Premium Crack
