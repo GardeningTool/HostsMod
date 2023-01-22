@@ -1,6 +1,5 @@
 mvncentral.net
 vladvilcu2006.tech
-verble.software
 jonathanhardwick.me
 etc.catering
 tlrepo.cc
