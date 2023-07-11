@@ -20,7 +20,7 @@ vector_t read()
 
   while (std::getline(hosts, line))
   {
-    if (line.find("127.0.0.1") != std::string::npos)
+    if (line.find("0.0.0.0") != std::string::npos)
     {
       lines.push_back(line);
     }
@@ -41,9 +41,9 @@ bool write(vector_t& vec)
 
   for (const auto& site : vars::blocked_sites)
   {
-    if (std::find(vec.begin(), vec.end(), "127.0.0.1     " + site) == vec.end()) 
+    if (std::find(vec.begin(), vec.end(), "0.0.0.0     " + site) == vec.end()) 
     {
-      hosts_file << "\n127.0.0.1     " << site;
+      hosts_file << "\n0.0.0.0     " << site;
       std::cout << "Blacklisted " << site << '\n';
       ++blacklisted;
     }
